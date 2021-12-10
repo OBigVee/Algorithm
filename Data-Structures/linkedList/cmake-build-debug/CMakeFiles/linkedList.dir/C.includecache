@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/obigvee/Documents/Learn Algo/Algorithm/Data-Structures/linkedList/list.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/obigvee/Documents/Learn Algo/Algorithm/Data-Structures/linkedList/main.c
+list.h
+/home/obigvee/Documents/Learn Algo/Algorithm/Data-Structures/linkedList/list.h
+
+/home/obigvee/Documents/Learn Algo/Algorithm/Data-Structures/linkedList/printList.c
+list.h
+/home/obigvee/Documents/Learn Algo/Algorithm/Data-Structures/linkedList/list.h
+
